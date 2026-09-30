@@ -28,7 +28,6 @@ for row in rows:
     else:
         # Otherwise, the year is 2021.
         year = 2021
-    # Unfortunately, I'm working on Python 3.9 and cannot update it, so we can't use a match/case.
     month = months.index(cols[0].split()[0])+1
     # If there's a hyphen, it means there are multiple dates.
     if "-" in cols[0]:
